@@ -1,0 +1,41 @@
+[debug] [2018-05-29T20:18:29.520Z] ----------------------------------------------------------------------
+[debug] [2018-05-29T20:18:29.525Z] Command:       /usr/local/bin/node /Users/anuar/Hacker/Centraal/academy/prueba/node_modules/.bin/firebase serve
+[debug] [2018-05-29T20:18:29.525Z] CLI Version:   3.17.7
+[debug] [2018-05-29T20:18:29.525Z] Platform:      darwin
+[debug] [2018-05-29T20:18:29.525Z] Node Version:  v8.10.0
+[debug] [2018-05-29T20:18:29.527Z] Time:          Tue May 29 2018 15:18:29 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:29.527Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-29T20:18:29.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-29T20:18:29.552Z] > authorizing via signed-in user
+[debug] [2018-05-29T20:18:29.555Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-29T20:18:29.556Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LkQJLlQn1xyjZsbZS01yvnDEmAF5YShcbD40qVgS1Bw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 29 2018 15:18:29 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:34.984Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T20:18:34.997Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/anuar-blog  
+  
+ Tue May 29 2018 15:18:34 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:35.688Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T20:18:35.690Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/anuar-blog/tokens  
+  
+ Tue May 29 2018 15:18:35 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:36.485Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T20:18:36.486Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog  
+  
+ Tue May 29 2018 15:18:36 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:36.844Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anuar/Hacker/Centraal/academy/prueba'...
+[info] 
+[debug] [2018-05-29T20:18:36.848Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1084185075037/clients/_:getWebAppConfig  
+  
+ Tue May 29 2018 15:18:36 GMT-0500 (CDT)
+[debug] [2018-05-29T20:18:37.308Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+

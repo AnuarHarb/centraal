@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="images/icons/amarillo.png">
+  <title>Centraal Academy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h2 class=" navbar__title title"><a href="index.html">centraal.academy</a></h2>
+      <div class="navbar__links">
+        <a href="about-us.html">Nosotros</a>
+        <a href="index.html#programs">Programas</a>
+        <a href="scholarships.html">Becas</a>
+
+      </div>
+      <div>
+        <a class="navbar__button action-button" href="form.html">Aplica</a>
+      </div>
+      <div class="navbar__button--mobile">
+        <button>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="sidenav">
+    <span class="sidenav__close-button">X</span>
+    <ul class="sidenav__list">
+      <li class="sidenav__link title"><a href="index.html">Home</a></li>
+      <li class="sidenav__link title"><a href="about-us.html">Nosotros</a></li>
+      <li class="sidenav__link title"><a href="index.html#programs">Programas</a></li>
+      <li class="sidenav__link title"><a href="scholarships.html">Becas</a></li>
+      <li class="sidenav__link title"></li>
+    </ul>
+  </section>
+
+  <section class="cover cover--form"></section>
+
+  <section class="stats content">
+    <article class="stats-data">
+      <div>
+        <h3 class="stats-data__number">+32</h3>
+        <p class="stats-data-text text">Becas FrontEnd <br>y BackEnd</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number">2</h3>
+        <p class="stats-data-text text">Sedes, Guadalajara <br>y Ciudad de México</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number">85%</h3>
+        <p class="stats-data-text text">de alumnos <br>consiguen trabajo</p>
+      </div>
+      <div>
+        <h3 class="stats-data__number code-instruction">$15,000</h3>
+        <p class="stats-data-text text">Salario promedio a <br>egresados del programa</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="form">
+    <form id="program-form" class="content">
+      <h1 class="title--uppercase form__title">Formulario</h1>
+      <div class="form__input-container">
+        <article class="form__group">
+          <h3 class="form__subtitle sub-title">1.- Datos personales</h3>
+          <label for="name">Nombre Completo</label>
+          <input id="name" type="text">
+          <label for="email">Email</label>
+          <input id="email" type="text">
+          <label for="phone">Teléfono</label>
+          <input id="phone" type="number">
+          <label for="">Ciudad</label>
+          <select name="city" form="program-form">
+            <option value=""></option>
+            <option value="cdmx">Ciudad de México</option>
+            <option value="gdl">Guadalajara</option>
+          </select>
+        </article>
+        <article class="form__group">
+          <h3 class="form__subtitle sub-title">2.- Selecciona un programa</h3>
+          <label for="">Programa</label>
+          <select name="program" form="program-form">
+            <option value=""></option>
+            <option value="front">Front End</option>
+            <option value="back">Back End</option>
+            <option value="web">Web Mobile Specialist</option>
+            <option value="cloud">Cloud Architect</option>
+          </select>
+          <label for="">¿Sabes Programar?</label>
+          <select name="experience" form="program-form">
+            <option value=""></option>
+            <option value="no">No, soy nuevo en esto</option>
+            <option value="videos y tutoriales">He visto tutoriales y videos</option>
+            <option value="+6 meses">Llevo más de 6 meses</option>
+            <option value="+2 años">Llevo más de dos años</option>
+          </select>
+          <label for="">¿Estudias o trabajas?</label>
+          <select name="work" form="program-form">
+            <option value=""></option>
+            <option value="Estudiante">Estudio</option>
+            <option value="Empleado">Trabajo</option>
+            <option value="Emprendedor">Tengo mi propia startup o negocio</option>
+            <option value="nada">Por el momento no me preocupo de eso</option>
+          </select>
+          <label for="lead">¿Como te enteraste de nosotros?</label>
+          <input id="lead" type="text">
+        </article>
+      </div>
+      <input class="action-button form__button" type="submit" value="Aplica">
+    </form>
+  </section>
+
+  <footer>
+    <section class="content">
+      <div class="footer__sections">
+        <article class="footer__column">
+          <h3 class="footer__title title">centraal academy</h3>
+          <p>email:</p>
+          <p>academy@centraal.com</p>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección GDL</h5>
+          <p>Av. Ignacio Luis Vallarta 3300,</p>
+          <p>Vallarta Nte., 44690,</p>
+          <p>Guadalajara, Jal.</p>
+        </article>
+        <article class="footer__column">
+          <h5 class="footer__subtitle sub-title">Dirección CDMX</h5>
+          <p>Zamora 187, Condesa</p>
+          <p>06140 Cuahutémoc,</p>
+          <p>Ciudad de México</p>
+        </article>
+      </div>
+      <img class="footer__image" src="images/showMe.png" alt="">
+    </section>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="javascript/firebase.js"></script>
+  <script src="javascript/index.js"></script>
+  <script src="javascript/sidenav.js"></script>
+</body>
+</html>
