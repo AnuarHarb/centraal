@@ -39,3 +39,76 @@
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5000
 
+[info] Shutting down...
+[info] Shutting down...
+[info] Shutting down...
+[debug] [2018-05-29T21:35:54.143Z] ----------------------------------------------------------------------
+[debug] [2018-05-29T21:35:54.144Z] Command:       /usr/local/bin/node /Users/anuar/Hacker/Centraal/academy/prueba/node_modules/.bin/firebase serve
+[debug] [2018-05-29T21:35:54.145Z] CLI Version:   3.17.7
+[debug] [2018-05-29T21:35:54.145Z] Platform:      darwin
+[debug] [2018-05-29T21:35:54.145Z] Node Version:  v8.10.0
+[debug] [2018-05-29T21:35:54.145Z] Time:          Tue May 29 2018 16:35:54 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:54.145Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-29T21:35:54.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-29T21:35:54.157Z] > authorizing via signed-in user
+[debug] [2018-05-29T21:35:54.159Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-29T21:35:54.159Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LkQJLlQn1xyjZsbZS01yvnDEmAF5YShcbD40qVgS1Bw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 29 2018 16:35:54 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:54.484Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T21:35:54.617Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/anuar-blog  
+  
+ Tue May 29 2018 16:35:54 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:55.140Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T21:35:55.142Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/anuar-blog/tokens  
+  
+ Tue May 29 2018 16:35:55 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:55.521Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T21:35:55.523Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog  
+  
+ Tue May 29 2018 16:35:55 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:55.895Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anuar/Hacker/Centraal/academy/prueba'...
+[info] 
+[debug] [2018-05-29T21:35:55.899Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1084185075037/clients/_:getWebAppConfig  
+  
+ Tue May 29 2018 16:35:55 GMT-0500 (CDT)
+[debug] [2018-05-29T21:35:56.706Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[info] Shutting down...
+[debug] [2018-05-30T17:27:24.287Z] ----------------------------------------------------------------------
+[debug] [2018-05-30T17:27:24.289Z] Command:       /usr/local/bin/node /Users/anuar/Hacker/Centraal/academy/prueba/node_modules/.bin/firebase deploy
+[debug] [2018-05-30T17:27:24.289Z] CLI Version:   3.17.7
+[debug] [2018-05-30T17:27:24.289Z] Platform:      darwin
+[debug] [2018-05-30T17:27:24.289Z] Node Version:  v8.10.0
+[debug] [2018-05-30T17:27:24.290Z] Time:          Wed May 30 2018 12:27:24 GMT-0500 (CDT)
+[debug] [2018-05-30T17:27:24.290Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-30T17:27:24.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-30T17:27:24.303Z] > authorizing via signed-in user
+[debug] [2018-05-30T17:27:24.305Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-30T17:27:24.305Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LkQJLlQn1xyjZsbZS01yvnDEmAF5YShcbD40qVgS1Bw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 30 2018 12:27:24 GMT-0500 (CDT)
+[debug] [2018-05-30T17:27:27.031Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T17:27:27.040Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/anuar-blog  
+  
+ Wed May 30 2018 12:27:27 GMT-0500 (CDT)
+[debug] [2018-05-30T17:27:32.746Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T17:27:32.748Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/anuar-blog/tokens  
+  
+ Wed May 30 2018 12:27:32 GMT-0500 (CDT)
+[debug] [2018-05-30T17:27:33.107Z] <<< HTTP RESPONSE 200
