@@ -1203,6 +1203,14 @@ footer {
   padding: var(--full-padding);
 }
 
+.thx-message {
+  text-align: center;
+  margin: 60px 0 300px 0;
+}
+.hidden {
+  display: none;
+}
+
 .form__title {
   color: var(--gray-academy);
   font-size: 40px;

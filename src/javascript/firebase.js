@@ -13,6 +13,7 @@ const database = firebase.database();
 const leadsList = firebase.database().ref('leads');
 
 const form = document.querySelector('#program-form');
+const thx = document.querySelector('.thx-message');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   sendForm(event.target);
@@ -28,5 +29,15 @@ function sendForm(form) {
     experience: form.experience.value,
     work: form.work.value,
     lead: form.lead.value,
-  })
+  });
+  form.name.value = '';
+  form.email.value = '';
+  form.phone.value = '';
+  form.city.value = '';
+  form.program.value = '';
+  form.experience.value = '';
+  form.work.value = '';
+  form.lead.value = '';
+  form.classList.add('hidden');
+  thx.classList.remove('hidden');
 }
