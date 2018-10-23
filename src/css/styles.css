@@ -136,6 +136,10 @@ a {
   text-align: center;
 }
 
+.action-button.yellow {
+  background-color: var(--back-yellow);
+}
+
 .action-button:hover {
   filter: brightness(115%)
 }
@@ -1106,6 +1110,7 @@ footer {
 
 .apply-banner .content {
   display: flex;
+  align-items: center;
 }
 
 .apply-banner .sub-title {
