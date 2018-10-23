@@ -41,9 +41,6 @@
 
       </div>
       <div>
-        <a class="navbar__button action-button" href="form.html">Aplica</a>
-      </div>
-      <div>
         <a href="https://www.facebook.com/CentraalAcademy/" target="_blank"><img class="navbar__social" src="images/redes/facebook.png" alt=""></a>
         <a href="https://twitter.com/centraalAcademy?lang=es" target="_blank"><img class="navbar__social" src="images/redes/twitter.png" alt=""></a>
         <a href="https://www.instagram.com/centraalacademy/" target="_blank"><img class="navbar__social" src="images/redes/instagram.png" alt=""></a>
@@ -113,6 +110,13 @@
         </article>
         <article class="form__group">
           <h3 class="form__subtitle sub-title">2.- Selecciona un programa</h3>
+          <label for="">Fecha de inicio</label>
+          <select name="date" form="program-form">
+            <option value=""></option>
+            <option value="Febrero 2019">Febrero 2019</option>
+            <option value="Verano 2019">Verano 2019</option>
+            <option value="Otoño 2019">Otoño 2019</option>
+          </select>
           <label for="">Programa</label>
           <select name="program" form="program-form">
             <option value=""></option>
@@ -137,8 +141,19 @@
             <option value="Emprendedor">Tengo mi propia startup o negocio</option>
             <option value="nada">Por el momento no me preocupo de eso</option>
           </select>
-          <label for="lead">¿Como te enteraste de nosotros?</label>
-          <input id="lead" type="text">
+          <label for="">¿Como te enteraste de nosotros?</label>
+          <select name="lead" form="program-form">
+            <option value=""></option>
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Web">Web</option>
+            <option value="Open Class">Open Class</option>
+            <option value="Demo Day">Demo Day</option>
+            <option value="Evento de Comunidad">Evento de Comunidad</option>
+            <option value="Amigos / Familiares">Amigos / Familiares</option>
+            <option value="Otro">Otro</option>
+          </select>
         </article>
       </div>
       <input class="action-button form__button" type="submit" value="Aplica">
@@ -146,7 +161,8 @@
   </section>
 
   <section class="thx-message hidden">
-    <h2>¡Gracias! Pronto nos pondremos en contacto contigo ;).</h2>
+    <h2>¡Gracias! Te enviaremos un mail con más información del programa en el que estas interesado y pronto nos pondremos en contacto contigo.</h2>
+    <img class="thx-message__img" src="images/icons/amarillo.png" alt="Centraal Academy face logo">
   </section>
 
   <footer>

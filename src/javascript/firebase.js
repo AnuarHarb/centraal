@@ -19,8 +19,14 @@ form.addEventListener('submit', (event) => {
   sendForm(event.target);
 })
 
+let timestamp = new Date();
+console.log(timestamp);
+
 function sendForm(form) {
+  let timestamp = new Date();
   leadsList.push({
+    timestamp: timestamp,
+    date: form.date.value,
     name: form.name.value,
     email: form.email.value,
     phone: form.phone.value,
