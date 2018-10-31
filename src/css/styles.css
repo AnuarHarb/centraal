@@ -47,8 +47,9 @@ a {
 
     /* Program colors*/
     --fullstack-color: #f7c744;
-    --web-green: #94D341;
-    --cloud-pink: #e072d6;
+    --web-specialist-color: #5BD2D7;
+    /* --web-specialist-color: #94D341; */
+    --cloud-color: #e072d6;
     --back-yellow: #f7c744;
 
      /* Layout colors */
@@ -506,11 +507,11 @@ header {
 }
 
 .web-mobile-card .sub-title {
-  color: var(--web-green);
+  color: var(--web-specialist-color);
 }
 
 .cloud-architect-card .sub-title {
-  color: var(--cloud-pink);
+  color: var(--cloud-color);
 }
 
 .fullstack-card .sub-title {
@@ -731,11 +732,11 @@ header {
 }
 
 .sub-title.cdmx {
-  color: var(--cloud-pink);
+  color: var(--cloud-color);
 }
 
 .sub-title.gdl {
-  color: var(--web-green);
+  color: var(--web-specialist-color);
 }
 
 .city-card-image {
@@ -806,11 +807,11 @@ footer {
 }
 
 .program-stats--mobile-web {
-  background-color: var(--web-green);
+  background-color: var(--web-specialist-color);
 }
 
 .program-stats--cloud-architect {
-  background-color: var(--cloud-pink);
+  background-color: var(--cloud-color);
 }
 
 .program-stats--front-end {
@@ -872,11 +873,11 @@ footer {
 }
 
 .program-info--mobile-web {
-  background-color: var(--web-green);
+  background-color: var(--web-specialist-color);
 }
 
 .program-info--cloud-architect {
-  background-color: var(--cloud-pink);
+  background-color: var(--cloud-color);
 }
 
 .program-info--front-end {
@@ -975,12 +976,12 @@ footer {
 
 .learning-path--mobile-web .title--uppercase,
 .learning-path--mobile-web .sub-title {
-  color: var(--web-green);
+  color: var(--web-specialist-color);
 }
 
 .learning-path--cloud-architect .title--uppercase,
 .learning-path--cloud-architect .sub-title {
-  color: var(--cloud-pink);
+  color: var(--cloud-color);
 }
 
 .learning-path--front-end .title--uppercase,
