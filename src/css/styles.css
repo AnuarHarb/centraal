@@ -48,9 +48,8 @@ a {
     /* Program colors*/
     --fullstack-color: #f7c744;
     --web-specialist-color: #5BD2D7;
-    /* --web-specialist-color: #94D341; */
     --cloud-color: #e072d6;
-    --back-yellow: #f7c744;
+    --back-yellow: #94D341;
 
      /* Layout colors */
     --black-academy: #1e1d23;
@@ -519,7 +518,7 @@ header {
 }
 
 .ux-card .sub-title {
-  color: var(--primary-academy);
+  color: var(--back-yellow);
 }
 
 .text-card {
@@ -539,6 +538,10 @@ header {
   }
 
   .programs-title:nth-child(2) {
+    grid-column: initial;
+  }
+
+  .fullstack-card  {
     grid-column: initial;
   }
 }
