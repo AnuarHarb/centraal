@@ -46,7 +46,7 @@ a {
     --scholarship: #5BD2D7;
 
     /* Program colors*/
-    --front-blue: #5fd2f0;
+    --fullstack-color: #f7c744;
     --web-green: #94D341;
     --cloud-pink: #e072d6;
     --back-yellow: #f7c744;
@@ -474,6 +474,10 @@ header {
   padding: 25px;
 }
 
+.fullstack-card {
+  grid-column: 2/4;
+}
+
 .program-card-content .text {
   color: var(--white-academy);
 }
@@ -491,13 +495,11 @@ header {
   background-image: url('../images/card-images/cloud-architect-card-image.png');
 }
 
-.front-end-card .program-card-image {
-  background-image: url('../images/card-images/front-end-card-image.png');
+.fullstack-card .program-card-image {
+  background-image: url('../images/card-images/fullstack-card-image.jpg');
+  background-position: center;
 }
 
-.back-end-card .program-card-image {
-  background-image: url('../images/card-images/back-end-card-image.png');
-}
 
 .ux-card .program-card-image {
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/card-images/ux-card-image.jpg');
@@ -511,12 +513,8 @@ header {
   color: var(--cloud-pink);
 }
 
-.front-end-card .sub-title {
-  color: var(--front-blue);
-}
-
-.back-end-card .sub-title {
-  color: var(--back-yellow);
+.fullstack-card .sub-title {
+  color: var(--fullstack-color);
 }
 
 .ux-card .sub-title {
@@ -816,7 +814,7 @@ footer {
 }
 
 .program-stats--front-end {
-  background-color: var(--front-blue);
+  background-color: var(--fullstack-color);
 }
 
 .program-stats--back-end {
@@ -882,7 +880,7 @@ footer {
 }
 
 .program-info--front-end {
-  background-color: var(--front-blue);
+  background-color: var(--fullstack-color);
 }
 
 .program-info--back-end {
@@ -987,7 +985,7 @@ footer {
 
 .learning-path--front-end .title--uppercase,
 .learning-path--front-end .sub-title {
-  color: var(--front-blue);
+  color: var(--fullstack-color);
 }
 
 .learning-path--back-end .title--uppercase,
