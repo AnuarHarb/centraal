@@ -50,6 +50,7 @@ a {
     --web-specialist-color: #5BD2D7;
     --cloud-color: #e072d6;
     --back-yellow: #94D341;
+    --machine-color: #ef5353;
 
      /* Layout colors */
     --black-academy: #1e1d23;
@@ -474,10 +475,6 @@ header {
   padding: 25px;
 }
 
-.fullstack-card {
-  grid-column: 2/4;
-}
-
 .program-card-content .text {
   color: var(--white-academy);
 }
@@ -505,6 +502,10 @@ header {
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/card-images/ux-card-image.jpg');
 }
 
+.machine-card .program-card-image {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/card-images/machine-card-image.jpg');
+}
+
 .web-mobile-card .sub-title {
   color: var(--web-specialist-color);
 }
@@ -519,6 +520,10 @@ header {
 
 .ux-card .sub-title {
   color: var(--back-yellow);
+}
+
+.machine-card .sub-title {
+  color: var(--machine-color);
 }
 
 .text-card {

@@ -35,6 +35,7 @@ function sendForm(form) {
     experience: form.experience.value,
     work: form.work.value,
     lead: form.lead.value,
+    code: form.code.value,
   });
   form.name.value = '';
   form.email.value = '';
@@ -44,6 +45,7 @@ function sendForm(form) {
   form.experience.value = '';
   form.work.value = '';
   form.lead.value = '';
+  form.code.value = '';
   form.classList.add('hidden');
   thx.classList.remove('hidden');
 }
