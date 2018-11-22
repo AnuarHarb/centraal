@@ -793,7 +793,6 @@ footer {
   background-color: var(--black-academy);
   padding: var(--full-padding);
   padding-bottom: 0;
-  overflow: hidden;
 }
 
 .footer__sections {
@@ -815,7 +814,6 @@ footer {
 .footer__image {
   display: block;
   margin: 40px auto 0 auto;
-  transform: translatey(25px);
 }
 
 .footer__phone {

@@ -1,41 +1,58 @@
-[debug] [2018-06-05T01:45:08.155Z] ----------------------------------------------------------------------
-[debug] [2018-06-05T01:45:08.157Z] Command:       /usr/local/bin/node /Users/anuar/Hacker/Centraal/academy/prueba/node_modules/.bin/firebase serve
-[debug] [2018-06-05T01:45:08.157Z] CLI Version:   3.17.7
-[debug] [2018-06-05T01:45:08.157Z] Platform:      darwin
-[debug] [2018-06-05T01:45:08.157Z] Node Version:  v8.10.0
-[debug] [2018-06-05T01:45:08.158Z] Time:          Mon Jun 04 2018 20:45:08 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:08.158Z] ----------------------------------------------------------------------
+[debug] [2018-11-21T21:37:26.603Z] ----------------------------------------------------------------------
+[debug] [2018-11-21T21:37:26.605Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-11-21T21:37:26.605Z] CLI Version:   6.1.0
+[debug] [2018-11-21T21:37:26.605Z] Platform:      darwin
+[debug] [2018-11-21T21:37:26.605Z] Node Version:  v8.10.0
+[debug] [2018-11-21T21:37:26.606Z] Time:          Wed Nov 21 2018 15:37:26 GMT-0600 (CST)
+[debug] [2018-11-21T21:37:26.606Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-06-05T01:45:08.175Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-06-05T01:45:08.175Z] > authorizing via signed-in user
-[debug] [2018-06-05T01:45:08.177Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-06-05T01:45:08.177Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/LkQJLlQn1xyjZsbZS01yvnDEmAF5YShcbD40qVgS1Bw',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jun 04 2018 20:45:08 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:08.510Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-05T01:45:08.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/anuar-blog  
-  
- Mon Jun 04 2018 20:45:08 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:09.065Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-05T01:45:09.066Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/anuar-blog/tokens  
-  
- Mon Jun 04 2018 20:45:09 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:09.522Z] <<< HTTP RESPONSE 200
-[debug] [2018-06-05T01:45:09.523Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog  
-  
- Mon Jun 04 2018 20:45:09 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:10.043Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T21:37:26.614Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-21T21:37:26.615Z] > authorizing via signed-in user
+[debug] [2018-11-21T21:37:26.615Z] [iam] checking project anuar-blog for permissions ["firebase.projects.get"]
+[debug] [2018-11-21T21:37:26.617Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-21T21:37:26.617Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-21T21:37:27.097Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T21:37:27.104Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog:testIamPermissions  
+
+[debug] [2018-11-21T21:37:27.617Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T21:37:27.618Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog  
+ 
+[debug] [2018-11-21T21:37:27.955Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/anuar/Hacker/Centraal/academy/prueba'...
 [info] 
-[debug] [2018-06-05T01:45:10.047Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1084185075037/clients/_:getWebAppConfig  
-  
- Mon Jun 04 2018 20:45:10 GMT-0500 (CDT)
-[debug] [2018-06-05T01:45:10.461Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-21T21:37:27.958Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1084185075037/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-21T21:37:28.500Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2018-11-22T17:34:02.313Z] ----------------------------------------------------------------------
+[debug] [2018-11-22T17:34:02.315Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-11-22T17:34:02.315Z] CLI Version:   6.1.0
+[debug] [2018-11-22T17:34:02.315Z] Platform:      darwin
+[debug] [2018-11-22T17:34:02.315Z] Node Version:  v8.10.0
+[debug] [2018-11-22T17:34:02.316Z] Time:          Thu Nov 22 2018 11:34:02 GMT-0600 (CST)
+[debug] [2018-11-22T17:34:02.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-22T17:34:02.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-22T17:34:02.334Z] > authorizing via signed-in user
+[debug] [2018-11-22T17:34:02.335Z] [iam] checking project anuar-blog for permissions ["firebase.projects.get"]
+[debug] [2018-11-22T17:34:02.336Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-22T17:34:02.336Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-22T17:34:02.577Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T17:34:02.585Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog:testIamPermissions  
 
+[debug] [2018-11-22T17:34:02.858Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-22T17:34:02.860Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/anuar-blog  
+ 
+[debug] [2018-11-22T17:34:03.060Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anuar/Hacker/Centraal/academy/prueba'...
+[info] 
+[debug] [2018-11-22T17:34:03.061Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1084185075037/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-22T17:34:03.556Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
