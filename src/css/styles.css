@@ -487,13 +487,23 @@ header {
 }
 
 .program-card {
-  background-color: var(--card-academy);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   height: 250px;
+  justify-content: center;
 }
 
 .program-card:hover {
   margin-top: -1px;
-  box-shadow: 0 1px 5px 0px var(--black-academy);
+}
+
+.program-card__image {
+  width: 100%;
+}
+
+.program-card .title {
+  text-align: center;
 }
 
 .program-card-content {
@@ -531,23 +541,23 @@ header {
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/card-images/machine-card-image.jpg');
 }
 
-.web-mobile-card .sub-title {
+.web-mobile-card .title {
   color: var(--web-specialist-color);
 }
 
-.cloud-architect-card .sub-title {
+.cloud-architect-card .title {
   color: var(--cloud-color);
 }
 
-.fullstack-card .sub-title {
+.fullstack-card .title {
   color: var(--fullstack-color);
 }
 
-.ux-card .sub-title {
+.ux-card .title {
   color: var(--ux-color);
 }
 
-.machine-card .sub-title {
+.machine-card .title {
   color: var(--machine-color);
 }
 
