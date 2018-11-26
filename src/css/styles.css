@@ -55,6 +55,7 @@ a {
     --cloud-color: #D900FF;
     --ux-color: #FF01DB;
     --machine-color: #FFD400;
+    --micro-color: #3c9aeb;
 
      /* Layout colors */
     --black-academy: #1e1d23;
@@ -561,6 +562,10 @@ header {
   color: var(--machine-color);
 }
 
+.micro-card .title {
+  color: var(--micro-color);
+}
+
 .text-card {
   background-color: transparent;
 }
@@ -934,6 +939,10 @@ footer {
   background-color: var(--ux-color);
 }
 
+.program-info--micro {
+  background-color: var(--micro-color);
+}
+
 .program-info__description {
   box-sizing: border-box;
   display: inline-block;
@@ -1043,6 +1052,11 @@ footer {
 .learning-path--ux .title--uppercase,
 .learning-path--ux .sub-title {
   color: var(--ux-color);
+}
+
+.learning-path--micro .title--uppercase,
+.learning-path--micro .sub-title {
+  color: var(--micro-color);
 }
 
 
