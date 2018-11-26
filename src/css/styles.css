@@ -146,6 +146,14 @@ a {
   margin: 40px 0 40px 20px;
 }
 
+.bullet-list {
+  margin: 10px 0 10px 20px;
+}
+
+.bullet-list li {
+  margin: 5px 0;
+}
+
 /* buttons */
 .action-button {
   background-color: var(--primary-academy);
